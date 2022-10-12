@@ -3,6 +3,7 @@
 # Dock
 defaults write com.apple.dock autohide -bool true  # Automatically hide or show the Dock （Dock を自動的に隠す）
 defaults write com.apple.dock persistent-apps -array  # Wipe all app icons from the Dock （Dock に標準で入っている全てのアプリを消す、Finder とごみ箱は消えない）
+defaults write com.apple.dock orientation -string "right"  # Dock を右側へ移動
 defaults write com.apple.dock tilesize -int 55  # Set the icon size （アイコンサイズの設定）
 defaults write com.apple.dock magnification -bool true  # Magnificate the Dock （Dock の拡大機能を入にする）
 
